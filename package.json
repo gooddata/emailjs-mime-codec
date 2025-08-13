@@ -1,9 +1,9 @@
 {
-  "name": "emailjs-mime-codec",
+  "name": "@gooddata/emailjs-mime-codec-new",
   "description": "Encode and decode quoted printable and base64 strings",
   "version": "2.0.9",
   "main": "dist/mimecodec",
-  "homepage": "https://github.com/emailjs/emailjs-mime-codec",
+  "homepage": "https://github.com/gooddata/emailjs-mime-codec",
   "repository": {
     "type": "git",
     "url": "git://github.com/emailjs/emailjs-mime-codec.git"
@@ -24,7 +24,7 @@
   },
   "dependencies": {
     "emailjs-base64": "^1.1.4",
-    "ramda": "^0.26.1",
+    "ramda": "0.31.3",
     "text-encoding": "^0.7.0"
   },
   "devDependencies": {
