@@ -6,7 +6,7 @@
   "homepage": "https://github.com/gooddata/emailjs-mime-codec",
   "repository": {
     "type": "git",
-    "url": "git://github.com/emailjs/emailjs-mime-codec.git"
+    "url": "git://github.com/gooddata/emailjs-mime-codec.git"
   },
   "license": "MIT",
   "keywords": [
