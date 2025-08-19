@@ -1,7 +1,7 @@
 {
   "name": "@gooddata/emailjs-mime-codec-new",
   "description": "Encode and decode quoted printable and base64 strings",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "main": "dist/mimecodec",
   "homepage": "https://github.com/gooddata/emailjs-mime-codec",
   "repository": {
