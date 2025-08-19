@@ -1,7 +1,7 @@
 {
   "name": "@gooddata/emailjs-mime-codec-new",
   "description": "Encode and decode quoted printable and base64 strings",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "main": "dist/mimecodec",
   "homepage": "https://github.com/gooddata/emailjs-mime-codec",
   "repository": {
@@ -18,7 +18,6 @@
   "scripts": {
     "build": "./scripts/build.sh",
     "lint": "$(npm root)/.bin/standard",
-    "preversion": "npm run build",
     "test": "npm run lint && npm run unit",
     "unit": "$(npm root)/.bin/mocha './src/*-unit.js' --reporter spec --require babel-register testutils.js"
   },
