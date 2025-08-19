@@ -17,10 +17,10 @@
   "author": "Andris Reinman <andris@kreata.ee>",
   "scripts": {
     "build": "./scripts/build.sh",
-    "lint": "$(npm bin)/standard",
+    "lint": "$(npm root)/.bin/standard",
     "preversion": "npm run build",
     "test": "npm run lint && npm run unit",
-    "unit": "$(npm bin)/mocha './src/*-unit.js' --reporter spec --require babel-register testutils.js"
+    "unit": "$(npm root)/.bin/mocha './src/*-unit.js' --reporter spec --require babel-register testutils.js"
   },
   "dependencies": {
     "emailjs-base64": "^1.1.4",
@@ -36,6 +36,13 @@
     "pre-commit": "^1.2.2",
     "standard": "^12.0.1"
   },
+  "files": [
+    "dist",
+    "scripts",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
   "standard": {
     "globals": [
       "describe",
