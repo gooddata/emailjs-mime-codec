@@ -247,6 +247,11 @@ Outputs
 }
 ```
 
+## Release
+
+The release needs to be done via [npm trusted publishing](https://docs.npmjs.com/trusted-publishers). Set it up if needed.
+See `mock-js` for the reference implementation and consult the frontend shared credentials guideline.
+
 ## License
 
 ```
